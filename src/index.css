@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.item{
+  margin: 20px;
+}
+.item2{
+  font-size: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: red;
+}
+.item1{
+  height: 50px;
+  border-radius: 12px;
+  padding: 12px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  border: none;
+  outline: none;}
+
+.pera{
+  font-size: 25px;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 10px;
+}
+.card{
+  margin-left: 15rem;
+  margin-top: 18rem;
+  border: 3px solid black;
+}
+.list-group{
+  border: 5px solid blueviolet;
+  border-top: 1px solid #000;
+}
+
+.secOuterDiv{
+  width: 550px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, .7);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+body{
+  background-image: url(https://besthqwallpapers.com/Uploads/20-8-2020/140185/thumb2-wood-mosaic-texture-wooden-mosaic-background-wood-planks-texture-background-from-wooden-planks.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+  font-family: 'Supermercado One', cursive;
+  font-style: italic;
+  background-color: lavender;
+}
+footer{
+  width: 550px;
+
+  height: 80px;
+  margin-top: 76vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:sticky;
+  bottom: 0;
+  background-color: #000;
+}
+
+header{
+  height: 90px;
+  width: auto;
+  margin-top: 10px;
+  align-items: center;
+  font-size: 35px;
+  position:sticky;
+  top:0;
+  text-align: center;
+}
+.peraDiv{
+  width: 20rem;
+  height: 50px;
+  background-color: lavender;
+  display: flex;
+
+
+}
